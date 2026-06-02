@@ -8,7 +8,7 @@ void bang_cuu_chuong(int n) {
 }
 int main()
 {
-    bang_cuu_chuong(2);
-
+  bang_cuu_chuong(2);
+  
     return 0;
 }

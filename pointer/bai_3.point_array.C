@@ -49,7 +49,6 @@ int dem_vuot_nguong(float *arr,int n,  float nguong) {
     return count;
 }
 
-
 int main(void) {
     float nhiet_do[6] = { 72.0f, 78.0f, 86.0f, 91.0f, 83.0f, 79.0f };
     float tb = tinh_trung_binh(nhiet_do, 6);

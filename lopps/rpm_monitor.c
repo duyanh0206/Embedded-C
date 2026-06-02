@@ -11,7 +11,7 @@ void xu_ly_rpm(float *rpm, int n)
     for(i = 0; i < n; i++)
     {
         printf("Chu ky %d: %.2f RPM\n", i + 1, rpm[i]);
-
+        
         tong += rpm[i];
 
         if(rpm[i] > max)
@@ -35,11 +35,9 @@ void xu_ly_rpm(float *rpm, int n)
 
 int main(void)
 {
-    float rpm[10] = {
-        800.0f, 1200.0f, 2500.0f, 2800.0f, 2000.0f,
-        3500.0f, 4000.0f, 4200.0f, 8900.0f, 850.0f
-    };
-
+  float rpm[10] = {800.0f,  1200.0f, 2500.0f, 2800.0f, 2000.0f,
+                   3500.0f, 4000.0f, 4200.0f, 8900.0f, 850.0f};
+  
     xu_ly_rpm(rpm, 10);
 
     return 0;

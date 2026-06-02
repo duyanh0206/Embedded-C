@@ -7,9 +7,7 @@ float tinh_tong(float *r,int n) {
         tong += r[i];
     }
     return tong;
-
 }
-
 int main() {
     float r[5] = {100.f, 220.f, 150.f, 300.f, 50.f};
     int i = 0;
@@ -25,14 +23,10 @@ int main() {
         if(r[i] >= 150.f) {
             printf("* Canh bao: dien tro cao hon 150 0hm: %.2f 0hm\n", r[i]);
         }
-
     }
     printf("- Tong dien tro noi tiep: %.2f 0hm\n", tong_dien_tro);
     printf("- Dien tro lon nhat: %.2f 0hm\n", dien_tro_lon_nhat);
     printf("tinhtong = %.2f 0hm\n", tinhtong);
-
-
-
 
     return 0;
 }
