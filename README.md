@@ -1,1 +1,1 @@
-# Embedded-C
+# Embedded Automotive Learning Journey
