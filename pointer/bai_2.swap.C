@@ -24,7 +24,7 @@ void swap_dung(int *a, int *b) {
     // a và b là con trỏ - trỏ đến x, y ngoài main - thay đổi giá trị x, y
 }
  
-int main() {
+int main(void) {
     int x = 5, y = 10;
 
     printf("Truoc swap_sai: x = %d, y = %d\n", x, y);

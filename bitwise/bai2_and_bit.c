@@ -14,7 +14,7 @@ kết quả    = 0000 0000
 
 
 
-int main() {
+int main(void) {
   data &= ~(1 << 3);
 
   printf("%u\n", data);

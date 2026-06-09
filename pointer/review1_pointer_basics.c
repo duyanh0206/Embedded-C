@@ -18,7 +18,7 @@ In giá trị mới mà con trỏ đang trỏ tới.
 #include <stdio.h>
 
 
-int main() {
+int main(void) {
     // Cho san - khong duoc them bien moi
     int a = 100;
     int b = 200;

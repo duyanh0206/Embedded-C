@@ -14,7 +14,7 @@ void dao_nguoc_mang(float *arr, int n) {
   }
 }
 
-int main() {
+int main(void) {
   int j = 0;
   float mang[5] = {1.0, 2.0, 3.0, 4.0, 5.0};
 

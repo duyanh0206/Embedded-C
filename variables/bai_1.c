@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main() {
+int main(void) {
     char ten[] = "le duy anh";
     int tuoi = 23;
     float chieu_cao = 1.75f;

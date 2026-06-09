@@ -10,7 +10,7 @@ typedef struct {
 StructType p;
 StructType *ptr;
 
-int main() {
+int main(void) {
 //   ptr = &p;
 //   ptr->x = 1;
 //   ptr->y = 2;

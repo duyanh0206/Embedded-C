@@ -15,7 +15,7 @@ Kết quả: x thay đổi thành 99 vì x và *p là cùng một ô nhớ vật
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int x = 10; // - CPU cấp 1 ô nhớ , đặt giá trị 10 vào ô nhớ đó
     int *p = &x; // con trỏ p lưu địa chỉ của ô nhớ đó, không lưu 10
 

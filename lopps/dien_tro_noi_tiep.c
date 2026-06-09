@@ -8,7 +8,7 @@ float tinh_tong(float *r,int n) {
     }
     return tong;
 }
-int main() {
+int main(void) {
     float r[5] = {100.f, 220.f, 150.f, 300.f, 50.f};
     int i = 0;
     float tong_dien_tro = 0.0f;

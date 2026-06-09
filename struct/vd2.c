@@ -11,7 +11,7 @@ typedef struct {
 StructType p;
 StructType *ptr;
 
-int main() {
+int main(void) {
 
 printf("size  = %lu\n", sizeof(p));
 

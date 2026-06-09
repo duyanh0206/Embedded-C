@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main() {
+int main(void) {
     float speed ;
     int troi_mua = 1; // 1: trời mưa
 

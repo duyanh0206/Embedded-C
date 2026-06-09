@@ -44,7 +44,7 @@ float tinh_muc_trung_binh(float *arr, int n) {
   return tong / (float)n;
 }
 
-int main() {
+int main(void) {
     float nhien_lieu[5] = {4.0f, 5.0f, 6.0f, 7.0f, 2.0f};
     float nguong_thap = 25.0f;
     float nguong_day = 90.0f;

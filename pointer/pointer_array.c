@@ -2,7 +2,7 @@
 // float sensor[4] = {72.1f, 73.5f, 80.2f, 79.3f};
 #include<stdio.h>
 
-int main() {
+int main(void) {
     float sensor[4] = {72.1f, 73.5f, 80.2f, 79.3f};
     float *p = sensor; // *ten mang = dia chi phan tu dau tien
     int i = 0;

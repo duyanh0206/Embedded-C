@@ -6,7 +6,7 @@ void bang_cuu_chuong(int n) {
         printf("%d x %d = %d\n", n, i, n*i);
     }
 }
-int main()
+int main(void)
 {
   bang_cuu_chuong(2);
   

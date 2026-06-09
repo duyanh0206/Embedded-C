@@ -21,7 +21,7 @@ RETURN_STATUS checkIc() {
   return check;
 }
 
-int main() {
+int main(void) {
   RETURN_STATUS check = checkIc();
   printf("%d\n", check);
   return 0;

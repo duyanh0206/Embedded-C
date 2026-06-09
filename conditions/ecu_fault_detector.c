@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+int main(void){
     float nhiet_do = 80.0f; // nhiệt độ của ECU
     float dien_ap = 13.2f; // điện áp của ECU
     int den_pha = 0; // 0 la hong, 1 la hoat dong

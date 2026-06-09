@@ -15,7 +15,7 @@ void in_trang_thai(ECU_Sesor_t *s) {
   printf("Co loi: %s\n", s->co_loi ? "LOI" : "OK");
   
 }
-int main() {
+int main(void) {
   ECU_Sesor_t sensor;
 
   sensor.nhiet_do = 86.4f;

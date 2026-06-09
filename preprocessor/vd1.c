@@ -12,7 +12,7 @@ void mFuntion() {
     printf("PI is not defined\n");
 }
 #endif
-int main() {
+int main(void) {
 
   mFuntion();
 

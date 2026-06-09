@@ -22,7 +22,7 @@ ECU_Sensor_t *tim_sensor_nong_nhat(ECU_Sensor_t *arr, int n) {
   }
   return max;
 }
-int main() {
+int main(void) {
   ECU_Sensor_t sensor[3];
 
   sensor[0].nhiet_do = 30.0f;

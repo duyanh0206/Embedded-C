@@ -1,9 +1,24 @@
 #include <stdio.h>
 
-int main() {
+int main(void)
+{
     int arr[] = {1, 2, 3, 4, 5};
     int *ptr = arr;
-    printf("%d %d %d %d %d %d", *ptr, ++*ptr++, (*ptr)++, *ptr++, *++ptr,++*ptr);
+
+    printf("*ptr      = %d\n", *ptr);
+
+    ptr = arr;
+    printf("++*ptr    = %d\n", ++(*ptr));
+
+    ptr = arr;
+    printf("(*ptr)++  = %d\n", (*ptr)++);
+
+    ptr = arr;
+    printf("*ptr++    = %d\n", *ptr++);
+
+    ptr = arr;
+    printf("*++ptr    = %d\n", *++ptr);
+
     return 0;
 }
 
